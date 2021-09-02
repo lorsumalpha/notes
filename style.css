@@ -1,0 +1,54 @@
+/*Import von externen Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/*Defaultsettings - Fonts etc.*/
+*{box-sizing: border-box;font-family:'Roboto', sans-serif;;}
+
+/*Zentrierung der Objekte*/
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/*Festlegen der Parameter für die Area*/
+.area{
+    width: 500px;
+    height: 500px;
+    background: green;
+    display: flex;
+    position: relative;
+    margin: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/*Designing vom "Speichern" Button*/
+
+a{
+    background-color: #00ba28;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2rem;
+    margin-top: 4rem;
+    transition: 1s;
+}
+
+a:hover{
+    background-color: #0e8603;
+    border-radius: 0em;
+    transition: 1s;
+}
+a:active{
+    background-color: #03350b;
+    color: white;
+    border-radius: 4rem;
+    transition: 1s;
+}
